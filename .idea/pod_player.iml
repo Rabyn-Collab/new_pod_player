@@ -9,10 +9,12 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/pod_player/example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/packages/pod_player/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/packages/pod_player/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/new_pod_player/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/new_pod_player/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/new_pod_player/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />
-    <orderEntry type="library" name="Dart Packages" level="project" />
   </component>
 </module>
