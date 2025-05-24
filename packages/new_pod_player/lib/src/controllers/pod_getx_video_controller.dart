@@ -6,10 +6,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:universal_html/html.dart' as uni_html;
-import 'package:video_player/video_player.dart';
 import 'package:wakelock_plus/wakelock_plus.dart';
 
-import '../../pod_player.dart';
+import '../../new_pod_player.dart';
 import '../utils/logger.dart';
 import '../utils/video_apis.dart';
 
@@ -18,7 +17,6 @@ part 'pod_gestures_controller.dart';
 part 'pod_ui_controller.dart';
 part 'pod_video_controller.dart';
 part 'pod_video_quality_controller.dart';
-
 class PodGetXVideoController extends _PodGesturesController {
   ///main videoplayer controller
   VideoPlayerController? get videoCtr => _videoCtr;
@@ -76,7 +74,7 @@ class PodGetXVideoController extends _PodGesturesController {
       podVideoStateChanger(PodVideoState.error);
       update(['errorState']);
       update(['update-all']);
-      podLog('ERROR ON POD_PLAYER:  $e');
+      podLog('ERROR ON new_new_pod_player:  $e');
       rethrow;
     }
   }

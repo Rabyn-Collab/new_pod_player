@@ -1,4 +1,4 @@
-part of 'package:pod_player/src/pod_player.dart';
+part of 'package:new_pod_player/src/new_pod_player.dart';
 
 class _WebOverlay extends StatelessWidget {
   final String tag;
